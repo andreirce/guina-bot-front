@@ -1,70 +1,78 @@
 @import "tailwindcss";
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@theme {
+  --color-brand-primary-light: #2c3e50;
+  --color-brand-primary-medium: #1a252f;
+  --color-brand-primary-dark: #121a22;
+  --color-brand-primary-xdark: #0a1016;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --color-brand-accent-light: #0f5e52;
+  --color-brand-accent-medium: #0a4036;
+  --color-brand-accent-dark: #052f27;
+  --color-brand-accent-blue: #005b96;
+  --color-brand-accent-navy: #003f63;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-xlight: #cfd4da;
+  --color-gray-light: #a4a9af;
+  --color-gray-medium: #6f7479;
+  --color-gray-dark: #3e4144;
+  --color-gray-xdark: #1e2124;
+  --color-gray-xxdark: #0f1113;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+  --color-feedback-success-light: #2e8b57;
+  --color-feedback-success-medium: #226644;
+  --color-feedback-success-dark: #1b4d35;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+  --color-feedback-warning-light: #e1c766;
+  --color-feedback-warning-medium: #bfa02a;
+  --color-feedback-warning-dark: #6b5e1f;
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+  --color-feedback-error-light: #d86c6c;
+  --color-feedback-error-medium: #b93232;
+  --color-feedback-error-dark: #7a1e1e;
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+  --color-icons-darkbg-active: #ffffff;
+  --color-icons-darkbg-inactive: #a4a9af;
+  --color-icons-darkbg-info: #6f7479;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  --color-icons-lightbg-active: #1e2124;
+  --color-icons-lightbg-inactive: #6f7479;
+  --color-icons-lightbg-info: #3e4144;
+
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 22px;
+  --font-size-xl: 28px;
+  --font-size-xxl: 36px;
+
+  --font-primary-regular: 400;
+  --font-primary-medium: 500;
+  --font-primary-semibold: 600;
+  --font-primary-bold: 700;
+
+  --font-secondary-regular: 400;
+  --font-secondary-medium: 500;
+  --font-secondary-semibold: 600;
+  --font-secondary-bold: 700;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --screen-sm: 476px;
+  --screen-md: 768px;
+  --screen-lg: 1440px;
 }
