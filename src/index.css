@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @theme {
   --color-brand-primary-light: #2c3e50;
@@ -33,15 +34,15 @@
   --color-feedback-error-medium: #b93232;
   --color-feedback-error-dark: #7a1e1e;
 
-  --color-icons-darkbg-active: #ffffff;
-  --color-icons-darkbg-inactive: #a4a9af;
-  --color-icons-darkbg-info: #6f7479;
+  --color-icons-dark-active: #ffffff;
+  --color-icons-dark-inactive: #a4a9af;
+  --color-icons-dark-info: #6f7479;
 
-  --color-icons-lightbg-active: #1e2124;
-  --color-icons-lightbg-inactive: #6f7479;
-  --color-icons-lightbg-info: #3e4144;
+  --color-icons-light-active: #1e2124;
+  --color-icons-light-inactive: #6f7479;
+  --color-icons-light-info: #3e4144;
 
-  --font-primary: "Poppins", sans-serif;
+  --font-primary: "Inter", sans-serif;
   --font-secondary: "Open Sans", sans-serif;
 
   --font-size-xxs: 12px;
