@@ -1,9 +1,12 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './App.css'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import { AuthRoutes } from './app/modules/auth/auth.routes'
 import LoginPage from './app/modules/auth/login.page'
 
 const routes = createBrowserRouter([
+  {
+    path: '/',
+    element: <Navigate to="/login" />
+  },
   {
     path: AuthRoutes.LOGIN,
     element: <LoginPage />
